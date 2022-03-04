@@ -9,5 +9,18 @@
   },
   "scripts": {
     "start": "nodemon index.js"
-  }
+  },
+  "description": "Create a repository for this challenge named usaf-cookies-challenge.",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sumakartik/usaf-cookies-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sumakartik/usaf-cookies-challenge/issues"
+  },
+  "homepage": "https://github.com/sumakartik/usaf-cookies-challenge#readme"
 }
