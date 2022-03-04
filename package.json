@@ -5,13 +5,13 @@
   "dependencies": {
     "cookie-parser": "^1.4.6",
     "express": "^4.17.3",
+    "g": "^2.0.1",
     "nodemon": "^2.0.15"
   },
   "scripts": {
     "start": "nodemon index.js"
   },
   "description": "Create a repository for this challenge named usaf-cookies-challenge.",
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sumakartik/usaf-cookies-challenge.git"
