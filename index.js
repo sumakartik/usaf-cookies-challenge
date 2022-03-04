@@ -3,6 +3,7 @@ const cookieParser = require("cookie-parser");
 
 const app = express();
 const port = 3000;
+const host = "127.0.0.1";
 
 let name = "";
 
@@ -23,6 +24,7 @@ app.get("/hello", (req, res) => {
   const cookieObj = req.cookies.loginCookie;
   res.status(200);
   res.send(`Hello ${cookieObj.userName}`);
+  console.log(cookieObj.userName);
 });
 
-app.listen(port, () => console.log("Server running"));
+app.listen(port, host, () => console.log(`Server running on ${host}:${port}`));
