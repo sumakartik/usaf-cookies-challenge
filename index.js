@@ -21,10 +21,8 @@ app.use(cookieParser());
 
 app.get("/hello", (req, res) => {
   const cookieObj = req.cookies.loginCookie;
-  // console.table(cookieObj.userName);
   res.status(200);
   res.send(`Hello ${cookieObj.userName}`);
-  // console.log(cookieObj.userName);
 });
 
 app.listen(port, () => console.log("Server running"));
